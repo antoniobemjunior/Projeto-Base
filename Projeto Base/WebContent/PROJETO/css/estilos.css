@@ -1,0 +1,404 @@
+/*Padronizar tags*/
+*{
+	font: 18px sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(50,50,255);
+}
+
+/*Página Inicial*/
+.formularioLogin{
+	width: 400px;
+	border: solid 1px gray;
+	border-radius: 8px;
+	margin: 10px auto;
+	background-color: rgb(255,255,0);
+}
+
+.imagemDiv{
+	width: 400px;
+	height: 300px;
+	margin: 10px auto;
+	margin-top: 160px;
+	background-color: yellow;
+	border-radius: 8px;
+}
+
+.imagem{
+	margin-top: 90px;
+	margin-left: 40px;
+	border-radius: 8px;
+}
+
+.formularioLogin input[type="email"],
+.formularioLogin input[type="password"]{
+	width: 380px;
+	border: solid 1px gray;
+	border-radius: 8px;
+	margin: 4px;
+	padding: 5px;
+}
+
+.formularioLogin input[type="submit"]{
+	border: solid 1px gray;
+	border-radius: 8px;
+	margin: 4px;
+	padding: 5px 20px;
+	background-color: rgb(0,0,204);
+	color: white;
+}
+
+.mensagem{
+	background-color: black;
+	padding: 15px;
+	color: white;
+}
+
+header{
+	background-color: rgb(0,0,204);
+	overflow: hidden;
+}
+
+header h1{
+	float: left;
+	color: yellow;
+	padding: 10px;
+	font-size: 28px;
+	font-family: arial;
+	margin-top: 2px;
+}
+
+header nav{
+	float: right;
+}
+
+#idiomas{
+	margin: 2px;
+	height: 25px;
+	float: right;
+}
+
+#idiomas img{
+	padding: 2px;
+}
+
+header a{
+	color: rgb(255,255,0); 
+	text-decoration: none;
+	padding: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+.txtPainel{
+	text-align: center;
+	font-size: 36px;
+	margin: 40px auto;
+}
+
+.formularioProduto{
+	width: 500px;
+	margin: 30px auto;
+	margin-top: 35px;
+	border: solid 1px gray;
+	background-color: rgb(255,255,0);
+	border-radius: 8px;
+}
+
+.formularioProduto input[type="text"]{
+	width: 225px;
+	border: solid 1px gray;
+	border-radius: 8px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.formularioProduto input[type="submit"],
+.formularioProduto a{
+	border: solid 1px gray;
+	border-radius: 8px;
+	padding: 5px 30px;
+	margin: 5px;
+	background-color: rgb(0,0,204);
+	color: yellow;
+	text-decoration: none;
+}
+
+.tabelaProduto{
+	width: 500px;
+	margin: 30px auto;
+	border: solid 1px gray;
+	background-color: rgb(255,255,0);
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.tabelaProduto td{
+	padding: 5px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.tabelaProduto tr:nth-child(even){
+	background-color: gray;
+}
+
+.tabelaProduto tr:first-child{
+	background-color: rgb(0,0,204);
+	color: yellow;
+}
+
+.link{
+	text-decoration: none;
+	color: black;
+}
+
+#linkIdioma{
+	text-decoration: none;
+} 
+
+#enviar{
+	margin-left: 160px;
+}
+
+#titulo{
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	Color: rgb(0,0,204);
+}
+
+.frame{
+	width: 854px;
+	height: 480px;
+	margin: 0px auto;
+}
+
+#vid{
+	margin: 0px auto;
+}
+
+#titulo{
+	margin-left: 30%;
+	margin-top: 80px;
+}
+
+#imagensInicio{
+	margin-left: 26%;
+}
+
+#linksInicio{
+	margin-top: 30px;
+}
+
+#linkSocial{
+	margin-left: 32%;
+	text-decoration: none;
+	color: yellow;
+}
+
+#socialInterno{
+	overflow: hidden;
+	margin-left: 28%;
+	margin-top: 200px;
+	width: 720px;
+}
+
+#socialInterno img{
+	float: left;
+}
+
+#socialInterno h1{
+	margin-top: 25px;
+	float: right;
+	color: white;
+	font-size: 28px;
+}
+
+#socialInterno p{
+	margin-top:20px;
+	float: right;
+	color: white;
+	font-size: 20px;
+	width: 400px;
+	margin-bottom: 30px;
+}
+
+#socialInterno a{
+	margin-left: 20px;
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 20px;
+}
+
+#linkTecnologico{
+	margin-left: 9%;
+	text-decoration: none;
+	color: yellow;
+}
+
+#tecnologicoInterno{
+	overflow: hidden;
+	margin-left: 28%;
+	margin-top: 200px;
+	width: 720px;
+}
+
+#tecnologicoInterno img{
+	float: left;
+}
+
+#tecnologicoInterno h1{
+	float: right;
+	color: white;
+	font-size: 28px;
+	width: 400px;
+}
+
+#tecnologicoInterno p{
+	margin-top:20px;
+	float: right;
+	color: white;
+	font-size: 20px;
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+#tecnologicoInterno a{
+	margin-left: 20px;
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 20px;
+}
+
+footer{
+	width: 400px;
+	text-align: center;
+	margin: 150px auto;
+}
+
+#linkAmbiental{
+	margin-left: 7.5%;
+	text-decoration: none;
+	color: yellow;
+}
+
+#ambientalInterno{
+	overflow: hidden;
+	margin-left: 25%;
+	margin-top: 30px;
+	width: 800px;
+}
+
+#botons{
+	margin-left: 0%;
+	margin-top: 20px;
+}
+
+#ambientalInterno h1{
+	color: white;
+	font-size: 28px;
+	margin-left: 0px;
+	width: 800px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#ambientalInterno p{
+	text-align: center;
+	color: white;
+	font-size: 17px;
+}
+
+
+#ambientalInterno a{
+	text-decoration: none;
+}
+
+#ambientalInterno span{
+	width: 260px;
+	text-align: center;
+	display: block;
+	font-size: 17px; 
+}
+
+.spanColor{
+	color: white;
+}
+
+.spanColor2{
+	color: yellow;
+}
+#espacamento{
+	color: rgb(50,50,255);
+}
+
+#ambientalInterno section{
+	width: 260px;
+	display: inline-block;
+}
+
+.img{
+	margin-left: 40px;	
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+#imgAmbientalInterno{
+	margin-top: 20px;
+	margin-left: 40px;	
+}
+
+.cartilha{
+	margin-top: 50px;
+	margin-left: 250px;
+	height: 45px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+#voltarImg{
+	height: 50px;
+	margin-left: 82px;
+	margin-top: -8px;
+}
+
+#voltarP{
+	margin-bottom: -40px;
+	top: 50px;
+	color: yellow;
+	font-weight: bold;
+}
+
+#imagensInicio img{
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+#titulo h1{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	margin-left: 90px;
+}
+
+#titulo h2{
+	color: white;
+	font-size: 24px;
+}
