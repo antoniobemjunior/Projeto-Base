@@ -1,8 +1,102 @@
 /*Padronizar tags*/
 *{
-	font: 18px sans-serif;
+	font-family: arial;
 	margin: 0px;
 	padding: 0px;
+}
+
+.sobre{
+	margin-top: 4px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+#premios{
+	height: 50px;
+	width: 40px;
+	margin-left: 775px;
+}
+
+.noticias{
+	color: white;
+	text-align: center;
+	margin: 20px auto;
+}
+.noticias a{
+	text-decoration: none;
+	text-align: right;
+	color: black;
+	margin-left: -710px;
+	background-color: yellow;
+	border: 1px solid yellow;
+	border-radius: 8px;
+}
+
+.noticias h1{
+	margin-bottom: 50px;
+}
+
+.noticias h2{
+	margin-bottom: 30px;
+}
+
+.noticias h3{
+	margin-left: 380px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.noticias p{
+	margin-left: 380px;
+	text-align: left;	
+	width: 800px;
+}
+
+#marginTop{
+	margin-top: 10px;
+}
+
+#marginBottom{
+	margin-bottom: 10px;
+}
+
+#marginLeft{
+	margin-left: 150px;
+}
+
+.imgNoticia{
+	margin-left: -24px;
+	width: 800px;
+	height: 250px;
+}
+
+#sobreBtn{
+    text-decoration: none;
+	margin-left: 140px;
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	background-color: rgb(50,50,255);
+	display: inline-block;
+}
+
+#sobreTitulo{
+	text-align: center;
+	margin: 50px auto;
+	color: white;
+}
+
+#sobreTitulo h1{
+	margin-bottom: 50px;
+}
+
+#sobreTitulo h2{
+	margin-bottom: 30px;
+}
+
+#sobreTitulo h3{
+	margin-bottom: 10px;
 }
 
 body{
@@ -167,7 +261,7 @@ header a{
 	margin-left: 160px;
 }
 
-#titulo{
+#titulo2{
 	font-size: 16px;
 	font-weight: bold;
 	margin-left: 40px;
@@ -200,7 +294,7 @@ header a{
 }
 
 #linkSocial{
-	margin-left: 32%;
+	margin-left: 33.2%;
 	text-decoration: none;
 	color: yellow;
 }
@@ -209,7 +303,7 @@ header a{
 	overflow: hidden;
 	margin-left: 28%;
 	margin-top: 200px;
-	width: 720px;
+	width: 730px;
 }
 
 #socialInterno img{
@@ -291,8 +385,12 @@ footer{
 	margin: 150px auto;
 }
 
+#imgSocial{
+	height: 300px;
+}
+
 #linkAmbiental{
-	margin-left: 7.5%;
+	margin-left: 8.5%;
 	text-decoration: none;
 	color: yellow;
 }
@@ -369,14 +467,61 @@ footer{
 	height: 45px;
 }
 
+#contatos{
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
 footer a{
 	text-decoration: none;
+}
+
+#assunto{
+	margin-left: -12px;
+}
+
+
+.tituloContato{
+	margin-top: 50px;
+	margin-left: 700px;
+	color: white;	
+}
+
+.colorWhite{
+	color: white;
 }
 
 #voltarImg{
 	height: 50px;
 	margin-left: 82px;
 	margin-top: -8px;
+}
+
+.altura{
+	height: 300px;
+}
+
+#texto{
+	margin-left: 8px;
+}
+
+#botao{
+	margin-left: 275px;
+	border-radius: 8px;
+	background-color: yellow;
+	color: black;
+	padding: 2px;
+	font-weight: bold;
+}
+
+#largura{
+	width: 500px;
+}
+
+#brasil2{
+	padding-top: 5px;
+	padding-left: 5px;
+	height: 41px;
 }
 
 #voltarP{

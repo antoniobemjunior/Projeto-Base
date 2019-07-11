@@ -142,36 +142,38 @@
 	%>
 	
 	<header>
-		<!--<div class="frame">-->
-			<img id="brasil" 	src="../imagens/200x50.jpg">
-			<!-- <video id="vid" autoplay="autoplay">
-		    	<source src="download.mp4" type="video/mp4">
-			</video> -->
-		<!--</div>-->
+			<img id="brasil2" 	src="../imagens/logo2.png">
 		<nav>
 			<a id="inicio" href="inicio.jsp" onmouseenter="inicioIN()" onmouseleave="inicioOUT()">Início</a><a id="empresa" href="painel.jsp" onmouseenter="empresaIN()" onmouseleave="empresaOUT()">Empresa</a><a id="noticias" href="noticias.jsp" onmouseenter="noticiasIN()" onmouseleave="noticiasOUT()">Notícias</a><a id="produtos"href="produtos.jsp" onmouseenter="produtosIN()" onmouseleave="produtosOUT()">Produtos</a><a id="contato" href="contato.jsp" onmouseenter="contatoIN()" onmouseleave="contatoOUT()">Fale Conosco</a><a id="sair" 	href="sair.jsp" 	onmouseenter="sairIN()" 	onmouseleave="sairOUT()">Sair</a>
 		</nav>
 	</header>
 	<div id="idiomas">
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=portugues">
-			<img id="brasil" 	src="../imagens/brasil.png" 		height="25" 	onclick="brasil()" 		title="Brasil">
+		<a id="linkIdioma"  href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=portugues"-->
+			<img src="../imagens/brasil.png" height="25" title="Brasil">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=eua">
-			<img id="eua" 		src="../imagens/eua.png" 			height="25" 	onclick="eua()" 		title="Estados Unidos da América">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=eua"-->
+			<img src="../imagens/eua.png" height="25" title="Estados Unidos da América">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=espanha">
-			<img id="espanha" 	src="../imagens/espanha.png" 		height="25" 	onclick="espanha()" 	title="Espanha">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=espanha"-->
+			<img src="../imagens/espanha.png" height="25" title="Espanha">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=argentina">
-			<img id="argentina"	src="../imagens/argentina.png" 		height="25" 	onclick="argentina()" 	title="Argentina">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=argentina"-->
+			<img src="../imagens/argentina.png" height="25" title="Argentina">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=mexico">
-			<img id="mexico" 	src="../imagens/mexico.png" 		height="25" 	onclick="mexico()"		title="México">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=mexico"-->
+			<img src="../imagens/mexico.png" height="25" title="México">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=portugal">
-			<img id="portugal" 	src="../imagens/portugal.png" 		height="25" 	onclick="portugal()" 	title="Portugal">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=portugal"-->
+			<img src="../imagens/portugal.png" height="25" title="Portugal">
 		</a>
-		<a id="linkIdioma" href="../funcoes/idiomas.jsp?lingua=reinounido">
-			<img id="reinounido"src="../imagens/reinounido.png" 	height="25" 	onclick="reinounido()" 	title="Reino Unido">
+		<a id="linkIdioma" href="#">
+		<!--"../funcoes/idiomas.jsp?lingua=reinounido"-->
+			<img src="../imagens/reinounido.png" height="25" title="Reino Unido">
 		</a>
 	</div>
